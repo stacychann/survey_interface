@@ -1,0 +1,15 @@
+.stApp > header {
+    background-color: transparent;
+}
+
+.stApp {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: #E6E6FA;
+}
+
+[data-testid="stSidebar"] > div:first-child {
+    background-image: url("data:image/png;base64,{img}");
+    background-position: center;
+}
